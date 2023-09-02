@@ -3,7 +3,7 @@ const http = require("http");
 const url = require("url");
 const slugify = require("slugify");
 const replaceTemplate = require("./modules/replaceTemplate");
-var app = express();
+var app = require('./app')
 var express = require("express");
 /////////////////////////////////
 // FILES

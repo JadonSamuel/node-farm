@@ -1,7 +1,7 @@
 var app = require("./app");
 var debug = require("debug")("NODE-FARM:server");
 var http = require("http");
-var app = express();
+var app = require('./app')
 var express = require('express');
 /**
  * Get port from environment and store in Express.
